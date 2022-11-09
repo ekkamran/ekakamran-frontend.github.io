@@ -5,16 +5,13 @@
   "description": "MERN shopping cart app",
   "main": "server.js",
   "type": "module",
-  "homepage": "https://ekkamran.github.io",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
-    "data:destroy": "node backend/seeder -d",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "data:destroy": "node backend/seeder -d"
   },
   "author": "",
   "license": "MIT",
@@ -40,11 +37,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ekkamran/proshop.git"
+    "url": "git+https://github.com/ekkamran/ekkamran.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/ekkamran/proshop/issues"
-  },
-  "homepage": "https://github.com/ekkamran/proshop#readme"
+    "url": "https://github.com/ekkamran/ekkamran/issues"
+  }
 }
