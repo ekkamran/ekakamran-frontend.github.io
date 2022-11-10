@@ -2,8 +2,10 @@
   "name": "practice-mern",
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
-  "homepage": "https://ekkamran.github.io",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -26,9 +28,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
